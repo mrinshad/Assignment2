@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
-body{
+
+*{
+    box-sizing: border-box;
+    align-items: center;
 }
-
 h1{
     text-align: center;
     font-family: montserrat;
@@ -10,9 +13,62 @@ h1{
 }
 
 .container{
+    float:left;
+}
+
+@media (min-width:1200px){
+    .container{
+        width: 33%;
+    }
+}
+
+.container{
     border:1px solid black;
-    display: flex;
     padding: 2px;
     margin: 2px;
-    width: ;
+    font-family: 'Varela Round';
+    background-color: rgb(157, 148, 148);
+}
+.cn{
+    width: 100%;
+    position: relative;
+}
+
+
+
+.tt1{
+    border: 1px solid black;
+    background-color: rgb(223, 150, 150);
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: fit-content;
+    float: right;
+}
+
+.tt2{
+    border: 1px solid black;
+    background-color: rgb(196, 53, 53);
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: fit-content;
+    float: right;
+}
+
+.tt3{
+    border: 1px solid black;
+    background-color: rgb(223, 231, 70);
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: fit-content;
+    float: right;
+}
+
+div > p{
+
 }
